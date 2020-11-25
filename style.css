@@ -5,6 +5,13 @@ html, body {
 
 canvas {
   display: block;
+  margin: auto;
+}
+
+button {
+  display: inline-grid;
+  margin-block: inherit;
+  transform: translate(0%, 250%);
 }
 
 header img {
@@ -94,7 +101,7 @@ main li {
 }
 
 .sketch {
-  background-color: #ed782f; /* Green */
+  background-color: #ed782f; /* Orange */
   border: none;
   color: white;
   padding: 30px 64px;
