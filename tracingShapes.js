@@ -45,7 +45,7 @@ function setup() {
   fish.resize(70,30);
   fish.text = "fish";
   fish.onPress = function() {
-    changeBG;
+    changeBG();
   }
   fish.onHover = function () {
     this.color = "#f549c4";
